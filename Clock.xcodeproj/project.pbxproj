@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8170678A2CE2420A00BC1982 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817067892CE2420A00BC1982 /* CityView.swift */; };
 		8177277D2CDE344B008C1034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817727772CDE344B008C1034 /* Preview Assets.xcassets */; };
 		8177277E2CDE344B008C1034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817727792CDE344B008C1034 /* Assets.xcassets */; };
 		8177277F2CDE344B008C1034 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177277A2CDE344B008C1034 /* ClockApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		817067892CE2420A00BC1982 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		817727662CDE3356008C1034 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817727772CDE344B008C1034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		817727792CDE344B008C1034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				8177277B2CDE344B008C1034 /* LandingView.swift */,
 				817727822CDE3A37008C1034 /* WorldClockView.swift */,
+				817067892CE2420A00BC1982 /* CityView.swift */,
 				817727842CDE3A42008C1034 /* AlarmsView.swift */,
 				817727862CDE3A4F008C1034 /* StopwatchView.swift */,
 			);
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8177277F2CDE344B008C1034 /* ClockApp.swift in Sources */,
+				8170678A2CE2420A00BC1982 /* CityView.swift in Sources */,
 				817727832CDE3A37008C1034 /* WorldClockView.swift in Sources */,
 				817727852CDE3A42008C1034 /* AlarmsView.swift in Sources */,
 				817727872CDE3A4F008C1034 /* StopwatchView.swift in Sources */,
