@@ -19,6 +19,8 @@ struct WorldClockView: View {
                 CityView(timeZoneOffset: "+6", city: "Hamburg", time: "12:35", amOrPm: "PM")
                 // Syndey
                 CityView(timeZoneOffset: "+16", city: "Sydney", time: "10:35", amOrPm: "PM")
+                
+                Spacer()
             }
             .navigationTitle("World Clock")
             .toolbar {
