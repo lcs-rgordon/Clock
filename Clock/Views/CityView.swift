@@ -18,9 +18,9 @@ struct CityView: View {
     
     // MARK: Computed property (displays user interface using values received into the stored properties)
     var body: some View {
-        HStack {
+        HStack(alignment: .lastTextBaseline) {
             // Left side
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Today, \(timeZoneOffset)HRS")
                 Text(city)
                     .font(.system(.largeTitle, design: .default, weight: .thin))
