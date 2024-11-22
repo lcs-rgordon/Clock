@@ -14,7 +14,7 @@ struct WorldClockView: View {
                 // Ottawa
                 CityView(providedCity: ottawa)
                 // Vancouver
-                CityView(providedCity: vancover)
+                CityView(providedCity: vancouver)
                 // Hamburg
                 CityView(providedCity: hamburg)
                 // Syndey
