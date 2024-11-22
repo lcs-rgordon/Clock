@@ -12,13 +12,13 @@ struct WorldClockView: View {
         NavigationStack {
             List {
                 // Ottawa
-                CityView(timeZoneOffset: "+0", city: "Ottawa", time: "6:35", amOrPm: "AM")
+                CityView(providedCity: ottawa)
                 // Vancouver
-                CityView(timeZoneOffset: "-3", city: "Vancouver", time: "3:35", amOrPm: "AM")
+                CityView(providedCity: vancover)
                 // Hamburg
-                CityView(timeZoneOffset: "+6", city: "Hamburg", time: "12:35", amOrPm: "PM")
+                CityView(providedCity: hamburg)
                 // Syndey
-                CityView(timeZoneOffset: "+16", city: "Sydney", time: "10:35", amOrPm: "PM")
+                CityView(providedCity: sydney)
             }
             .listStyle(.plain)
             .navigationTitle("World Clock")

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813BA96E2CED6167006CDF65 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BA96D2CED6167006CDF65 /* City.swift */; };
 		8170678A2CE2420A00BC1982 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817067892CE2420A00BC1982 /* CityView.swift */; };
 		8177277D2CDE344B008C1034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817727772CDE344B008C1034 /* Preview Assets.xcassets */; };
 		8177277E2CDE344B008C1034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817727792CDE344B008C1034 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		813BA96D2CED6167006CDF65 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		817067892CE2420A00BC1982 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		817727662CDE3356008C1034 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817727772CDE344B008C1034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		813BA96C2CED6156006CDF65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				813BA96D2CED6167006CDF65 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8177275D2CDE3356008C1034 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8177277A2CDE344B008C1034 /* ClockApp.swift */,
+				813BA96C2CED6156006CDF65 /* Model */,
 				817727812CDE3510008C1034 /* Views */,
 				817727782CDE344B008C1034 /* Preview Content */,
 				817727792CDE344B008C1034 /* Assets.xcassets */,
@@ -166,6 +177,7 @@
 				817727852CDE3A42008C1034 /* AlarmsView.swift in Sources */,
 				817727872CDE3A4F008C1034 /* StopwatchView.swift in Sources */,
 				817727802CDE344B008C1034 /* LandingView.swift in Sources */,
+				813BA96E2CED6167006CDF65 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
